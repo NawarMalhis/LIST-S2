@@ -8,7 +8,7 @@ LIST-S2 generates Position Conservation Matrixes for protein sequences in fasta 
 
 ## Minimum Hardware Requirements
 
-OS: Linux (tested on Ubuntu)
+OS: Linux (tested on Ubuntu and CentOS7)
 
 RAM: 8G minimum, 16G recommended
 
@@ -53,7 +53,7 @@ To run the test sequences in the `data` directory:
 ./list-s2 data
 ```
 
-LIST-S2 processes all fasta sequences in the target directory. Each sequence must be in a fasta format in a separate file with the extension ‘.fast’.
+LIST-S2 processes all fasta sequences in the target directory. Each sequence must be in a fasta format in a separate file with the extension ‘.fasta’.
 The UniProt database is divided into 33 equal sections. Each input sequence is aligned to all 33 sections, and then results are merged. LIST-S2 utilizes system memory caching to reduce disk read by aligning up to n (default n=100) sequences to each of the DBs 33 sections before starting aligning to the next section. 
 
 NCBI blastp is used for alignment using m threads (default m = 4). To use different n and m values, include these values in the command line:
