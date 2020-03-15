@@ -18,7 +18,26 @@ Disk: Disk IO is the main performance bottleneck, thus an SSD is recommended.
 
 ## Installation
 
-To install and test LIST-S2
+### To install LIST-S2 v1.1
+
+1. Install the blast alignment tools:
+```bash
+sudo apt-get install ncbi-blast+
+```
+2. Unpack the LIST-S2.tar.gz file:
+```bash
+tar -xzvf LIST-S2.tar.gz
+```
+3. Compile source code:
+```bash
+make
+```
+4. Download the formated database (should take ~1 hour):
+```bash
+make unpack
+```
+
+### To install LIST-S2 (V1)
 
 1. Install the blast alignment tools:
 ```bash
