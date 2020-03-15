@@ -18,13 +18,13 @@ Disk: Disk IO is the main performance bottleneck, thus an SSD is recommended.
 
 ## Installation
 
-### To install LIST-S2 v1.1
+### To install LIST-S2 v1.10
 
 1. Install the blast alignment tools:
 ```bash
 sudo apt-get install ncbi-blast+
 ```
-2. Unpack the LIST-S2.tar.gz file:
+2. Unpack the LIST-S2_v1.10.tar.gz file:
 ```bash
 tar -xzvf LIST-S2.tar.gz
 ```
@@ -32,9 +32,9 @@ tar -xzvf LIST-S2.tar.gz
 ```bash
 make
 ```
-4. Download the formated database (should take ~1 hour):
+4. Download UniProt 2019_02 Swiss-Prot and TrEMBL formated database (should take ~1 hour):
 ```bash
-make unpack
+make database
 ```
 
 ### To install LIST-S2 (V1)
