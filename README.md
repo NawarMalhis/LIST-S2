@@ -8,9 +8,9 @@ LIST-S2 generates Position Conservation Matrixes for protein sequences in fasta 
 
 #### Please reference the following publications:
 
-Malhis N, Jacobson M, Jones SJM, Gsponer J. LIST-S2: taxonomy based sorting of deleterious missense mutations across species. *Nucleic Acids Research* (2020). [doi:10.1093/nar/gkaa288.](https://doi.org/10.1093/nar/gkaa288) 
+Malhis N, Jacobson M, Jones SJM, Gsponer J. "LIST-S2: taxonomy based sorting of deleterious missense mutations across species." *Nucleic Acids Research* (2020). [doi:10.1093/nar/gkaa288.](https://doi.org/10.1093/nar/gkaa288) 
 
-Malhis N, Jones SJM, Gsponer J. Improved measures for evolutionary conservation that exploit taxonomy distances. *Nature Communications* (2019) Apr 5;10(1):1556. [doi:10.1038/s41467-019-09583-2.](https://www.nature.com/articles/s41467-019-09583-2) [pmid:30952844.](https://pubmed.ncbi.nlm.nih.gov/30952844/)
+Malhis N, Jones SJM, Gsponer J. "Improved measures for evolutionary conservation that exploit taxonomy distances." *Nature Communications* (2019) Apr 5;10(1):1556. [doi:10.1038/s41467-019-09583-2.](https://www.nature.com/articles/s41467-019-09583-2) [pmid:30952844.](https://pubmed.ncbi.nlm.nih.gov/30952844/)
 ## Minimum Hardware Requirements
 
 OS: Linux (tested on Ubuntu and CentOS7)
